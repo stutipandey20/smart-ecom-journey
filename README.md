@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Smart Product Recommendation + Wishlist Flow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project implements a feature that enhances the e-commerce customer journey by tracking user interactions such as viewed items and wishlist additions to:
 
-In the project directory, you can run:
+- Recommend similar or trending products
+- Show “Recently Viewed” and “You May Also Like” sections
+- Provide instant wishlist summaries with helpful reminders
 
-### `npm start`
+## Why It Matters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Awareness:** Engage users with relevant product recommendations  
+- **Consideration:** Allow users to save items for later via wishlist  
+- **Decision:** Use nudges like “Almost sold out” to encourage purchases  
+- **Retention:** Send reminders or promo suggestions based on wishlist activity  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack & What I'll Learn
 
-### `npm test`
+- **React.js:** Building reusable UI components and managing state  
+- **React Router:** Implementing page navigation  
+- **Tailwind CSS:** Styling components with utility-first CSS framework  
+- **State Management:** Using React State and Context API for interaction tracking  
+- **Data Persistence:** Leveraging `localStorage` to save user data across sessions  
+- **Mock APIs:** Using JSON or static files to simulate backend data  
+- **Node.js & Express (optional future):** Creating backend APIs and server-side logic  
+- **Databases (optional future):** MongoDB or Firebase for persistent storage  
+- **Caching (optional future):** React Query or Redis to optimize data fetching and performance  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Optional future improvements:* 
+Add backend APIs with Node.js/Express, real database integration (MongoDB, Firebase), and caching with React Query or Redis.
 
-### `npm run build`
+## Quick Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo  
+2. Run `npm install`  
+3. Run `npm start` to launch the app  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features to Build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Product recommendation and wishlist components  
+- Interaction tracking with React state/localStorage  
+- Navigation between homepage, product details, and wishlist pages  
 
-### `npm run eject`
+## Project Roadmap
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Phase 1: Frontend-only with React, Tailwind, and localStorage  
+- Phase 2: Mock backend using JSON data  
+- Phase 3: Real backend with Node.js and database  
+- Phase 4: Add caching and performance optimizations  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
